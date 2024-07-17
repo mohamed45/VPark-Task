@@ -32,9 +32,9 @@
   }
   
   .labels {
-    position: fixed;
-    bottom: 30%;
-    left: 59.5%;
+    position:absolute;
+    top: 50%;
+    right:57%;
     display: flex;
     flex-direction: column;
     /* margin: 80px 100px 0 0; */
@@ -58,7 +58,7 @@
   }
   
   .line2 {
-    width: 200px; 
+    width: 240px; 
     height: 2px;
     background: #4a4a4a;
   }
