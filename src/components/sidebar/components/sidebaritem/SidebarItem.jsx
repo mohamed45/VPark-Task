@@ -14,7 +14,7 @@ export default function SidebarItem({
   const handleMouseEnter = () => setIsHovered(true);
   const handleMouseLeave = () => setIsHovered(false);
 
-  const fontWeight = isActive || isHovered ? "bold" : "normal";
+  const fontWeight = isActive ? "bold" : "normal";
   const color = isActive || isHovered ? "#1785C6" : "#6B7487";
 
   return (
