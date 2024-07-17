@@ -1,0 +1,101 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  height: 100%;
+  width: 13%;
+  background-color: none;
+  padding-top: 14.5px;
+  border-right: none;
+}
+
+.sidebar a {
+  display: block;
+  color: #6d7485;
+  padding: 17.25px 20px 17.25px 0px;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+.sidebar a.active,
+.sidebar a:hover {
+  background-color: none;
+  color: #1785c6;
+  transition: all 0.5s;
+}
+
+/* test */
+
+
+
+
+.sidebar-text {
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* ***************Help Card************ */
+
+.help-card {
+  position: relative;
+  display: flex;
+  width: 140px;
+  height: 125px;
+  margin-top: 220.5px;
+
+  padding: 20px;
+  background: url("../../assets/images/Group 84925.svg") no-repeat center center;
+  background-size: unset;
+  border-radius: 20px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.help-icon img {
+  width: 94px;
+  height: 94px;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: none;
+  padding: 10px 0 5px 0;
+}
+
+.help-content {
+  margin-top: 20px;
+}
+
+.help-content h2 {
+  margin: 5px 0px;
+  font-size: 20px;
+}
+
+.help-content p {
+  font-size: 12px;
+  padding: 0px 5px;
+  margin: 10px 0;
+  font-family: "Times New Roman", Times, serif;
+  opacity: 80%;
+}
+
+.discover-button {
+  /* padding: 10px 20px; */
+  width: 99px;
+  height: 29.25px;
+  background-color: #f8b319; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.discover-button:hover {
+  background-color: #e0a000; /* Button hover color */
+}

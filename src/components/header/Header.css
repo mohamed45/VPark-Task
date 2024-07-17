@@ -1,0 +1,233 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.icon .path {
+  fill: #5b86e5; /* Your desired fill color */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f6f8fd;
+  border-radius: 20px;
+  padding: 0px 10px;
+  width: 254.25px;
+  height: 51.75px;
+}
+
+.search-bar input {
+  border: none;
+  background: none;
+  outline: none;
+  width: 254.25px;
+  height: 51.75px;
+  /* padding: 5px; */
+}
+
+.search-bar .search-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 22.34px;
+  width: 22.34px;
+}
+
+.icons {
+  display: flex;
+  width: 50.25px;
+  height: 50.25px;
+  align-items: center;
+  background-color: #f6f8fd;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.notifi {
+  width: 22.31px;
+  height: 28.79;
+  margin: 0px;
+  cursor: pointer;
+  align-items: center;
+}
+.dropdown-img {
+  display: flexbox;
+  height: 22.8px;
+  width: 22.5px;
+  margin: 0px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+/* ********************************************************************** */
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hidden checkbox */
+.dropdown-checkbox {
+  display: none;
+}
+
+/* Dropdown button */
+.dropbtn {
+  background-color: #f6f8fd;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  /* position: absolute; */
+  background-color: #ffffff;
+  min-width: 110px;
+  border-radius: 0 0 10px 10px;
+  margin-top: 20px;
+  margin-right: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* z-index: 1;  */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 10px 13px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ffffff;
+}
+
+.dropdown-checkbox:checked ~ .dropdown-content {
+  display: block;
+}
+within .dropdown-content {
+  display: block;
+}
+.lang {
+  width: 25.66px;
+  height: 20.29px;
+  align-items: center;
+}
+
+/* ********************************************************************* */
+
+.profile {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  width: 190.5px;
+}
+
+.profile img {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+  /* margin-right: 10px; */
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 50.25;
+  width: 130.5px;
+  color: black;
+  background-color: #ffffff;
+  /* margin-right: 10px; */
+}
+
+.profile-info font:first-child {
+  font-weight: bold;
+}
+
+.right-div {
+  display: flex;
+  gap: 20px;
+}
+/* ****drop dawon for profil************** */
+
+.dropdown-content-profile {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%;
+  margin-right: 20px;
+  border: 0px solid #ffffff;
+  border-radius: 5px;
+  width: 190.5px;
+}
+
+.dropdown-content-profile.show {
+  display: block;
+}
+
+.dropdown-content-profile a {
+  color: #65769c;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center; 
+}
+.admin-profile {
+  background-color: #ffffff;
+}
+
+.admin-option {
+  background-color: none;
+  margin: 7px 7px;
+  width: 172.5px;
+  height: 39.75px;
+  justify-content: space-between;
+}
+.admin-text {
+  margin-left: 7px;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.admin-option a:hover,
+.admin-profile :hover {
+  background-color: #f6f8fd;
+  border-radius: 10px;
+  color: #5083c9;
+  transition: all 0.5s;
+}
+.admin-option a img {
+  margin-right: 10px;
+}

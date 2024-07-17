@@ -1,0 +1,123 @@
+.home{
+    width: 87%;
+    height: fit-content;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background: #E7F0F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 30px 0px 0px 0px;
+    padding: 30px;
+
+}
+
+.home-title{
+    text-align: left;
+    font-size: normal 900 24px/24px ;
+    /* font: normal  Frutiger LT Pro; */
+    letter-spacing: 0px;
+    color: #081836;
+    opacity: 1;
+}
+
+/* <--------- this for the first section of the home page ----------> */
+.home-first{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.home-first-left{
+    width: 45%;
+    height: 633px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 20px #1785C61A;
+    border-radius: 20px;
+    opacity: 1;
+    padding: 20px;
+}
+
+.home-first-left-top{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.home-first-left-top-title{
+    text-align: left;
+    font-size: normal bold 24px/24px;
+    /* font: Frutiger LT Pro; */
+    letter-spacing: 0px;
+    color: #0C1834;
+    opacity: 1;
+}
+
+
+.home-first-left-top-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-first-left-top-rectangle{
+    display: flex;
+    justify-content: center;
+    margin:0px 5px;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+    /* UI Properties */
+    background: #F6F8FD 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.home-first-left-list{
+    height: 590px;
+    display: block;
+    position: relative;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+}
+
+.home-first-left-list {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+  }
+  
+  .home-first-left-list::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+  .home-first-right{
+    width: 50%;
+    height: 673px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+
+}
+
+.home-first-right-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+.home-second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.home-third{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
