@@ -13,6 +13,7 @@ import SmartVehicle from "./components/smartVehicle/SmartVehicle";
 import Statistic from "./components/statistic/Statistic";
 import Card from "./components/card/Card";
 import GetBird from "./components/getBird/GetBird";
+import Map from "./components/map/Map.jsx";
 
 
 export default function Home() {
@@ -70,6 +71,7 @@ export default function Home() {
         <GetBird />
       </div>
       <div className="home-third">
+        <Map />
         </div>
     </div>;
 }

@@ -1,0 +1,232 @@
+
+  .main-title {
+    color: #0c1834;
+    font-size: 24px;
+    margin-top: 0;
+  }
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .container{
+    width: 100%;
+  }
+  
+  .trip-route {
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px #1785c61a;
+  }
+  .map{
+      width: 100%;
+      height: 90vh;
+      background-image: url('https://www.triptipedia.com/tip/img/TwTnHWXg4-thumb.png');
+      background-size: cover;
+      border-radius: 10px;
+      position: relative;
+  }
+  .trip-route-form {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 3%;
+    background-color: #ffffff;
+    width: 350px;
+    padding: 15px;
+    box-shadow: 0px 10px 30px #1785c61a;
+    border: 1px solid #00000000;
+    border-radius: 10px;
+    opacity: 1;
+    z-index: 50;
+  }
+  .trip-route-form div h4 {
+    color: #65769c;
+    font-size: 18px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .trip-route-form div .first-title{
+      margin: 0;
+  }
+  .trip-route-form div h4 > .trip-route-mark {
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #65769c;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .trip-route-form div p {
+    color: #65769c;
+    opacity: 70%;
+  }
+  .trip-route-form .trip-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 15px;
+    border-block: 1px solid #dcdddf;
+  }
+  .trip-route-form .trip-info label {
+    display: block;
+    color: #65769c;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .trip-route-form .trip-info .trip-info-input {
+    width: 160px;
+    padding-inline: 5px;
+    padding-block: 10px;
+    color: #65769c;
+    background-color: #f6f8fd;
+    border: 1px solid #dddddd4d;
+    border-radius: 5px;
+    outline: none;
+  }
+  .trip-route-form .trip-info .select-box {
+    position: relative;
+  }
+  .trip-route-form .trip-info .select-box::after {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #0087cc;
+    position: absolute;
+    top: 43%;
+    right: 5px;
+    content: "";
+    z-index: 90;
+  }
+  .trip-route-form .trip-info select {
+    appearance: none;
+    z-index: 99;
+  }
+  .trip-route-form .trip-info .trip-info-input::placeholder {
+    color: #65769c;
+    opacity: 1;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .trip-route-form .trip-info .trip-info-input:focus {
+    outline: 1px solid #b4b7be;
+  }
+  .trip-route-form .trip-info .trip-info-input:focus::placeholder {
+    opacity: 0;
+  }
+  .trip-route-form .auto-generate-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .trip-route-form .auto-generate-title .generate-btn {
+    background-color: #0087cc;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .trip-route-form .auto-generate-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    padding-block: 15px;
+    border-block: 1px solid #dcdddf;
+  }
+  .trip-route-form .auto-generate-box .box {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f6f8fe;
+    text-align: center;
+  }
+  .trip-route-form .auto-generate-box .box .auto-generate-btn {
+    width: 100%;
+    padding-block: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  .trip-route-form .auto-generate-box .first-box .auto-generate-btn {
+    color: #00b76e;
+    background-color: #ffffff;
+    border: 1px solid #00b76e;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .trip-route-form .auto-generate-box .first-box .auto-generate-btn:hover {
+    color: #ffffff;
+    background-color: #00b76e;
+  }
+  .trip-route-form .auto-generate-box .second-box .auto-generate-btn {
+    color: #ff9b00;
+    background-color: #ffffff;
+    border: 1px solid #ff9b00;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .trip-route-form .auto-generate-box .second-box .auto-generate-btn:hover {
+    color: #ffffff;
+    background-color: #ff9b00;
+  }
+  .trip-route-form .auto-generate-box .third-box .auto-generate-btn {
+    color: #ff0000;
+    background-color: #ffffff;
+    border: 1px solid #ff0000;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .trip-route-form .auto-generate-box .third-box .auto-generate-btn:hover {
+    color: #ffffff;
+    background-color: #ff0000;
+  }
+  .trip-route-form .form-btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .trip-route-form .form-btn button {
+    width: 50%;
+    padding-block: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  .trip-route-form .form-btn .alt-btn {
+    color: #ff9b00;
+    background-color: #ffffff;
+    border: 1px solid #ff9b00;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .trip-route-form .form-btn .alt-btn:hover {
+    color: #ffffff;
+    background-color: #ff9b00;
+  }
+  .trip-route-form .form-btn .main-btn {
+    color: #ffffff;
+    background-color: #ff9b00;
+    border: 1px solid #ff9b00;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .trip-route-form .form-btn .main-btn:hover {
+    background-color: #d68306;
+  }
+  
